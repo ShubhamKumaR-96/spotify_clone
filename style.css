@@ -57,6 +57,7 @@
 }
 .right {
   margin: 16px 0;
+  position: relative;
 }
 
 .footer a {
@@ -131,9 +132,32 @@
     border-radius: 20px;
     color: black;
     cursor: pointer;
+    font-size: 16px;
+
 
 }
 .loginbtn:hover{
     font-weight: bold;
-    width: 80px;
+    font-size: 16px;
+
+}
+
+.playbar{
+  background-color: aqua;
+  width: 85%;
+  padding: 12px;
+  position: absolute;
+  bottom: 0;
+}
+.songButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.songsList ul{
+   padding: 0 12px;
+}
+.songsList ul li{
+  list-style: none;
 }
