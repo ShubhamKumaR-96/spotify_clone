@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
+    
     <title>spotify_clone</title>
   </head>
   <body>
@@ -25,11 +26,10 @@
           <div class="heading">
             <img class="invert" src="./img/playlist.svg" alt="playlist_logo" />
             <h2>Your library</h2>
-            
           </div>
           <div class="songsList">
             <ul>
-              <li>1. First Song</li>
+              
             </ul>
           </div>
           <div class="footer">
@@ -116,11 +116,13 @@
                   fill="none"
                   xmls="http://www.w3.org/2000/svg"
                 >
-                <path d="M5 3L19 12L5 21V3Z" 
-                stroke="#141B34" 
-                fill="#000" 
-                stroke-width="1.5" 
-                stroke-linejoin="round" />    
+                  <path
+                    d="M5 3L19 12L5 21V3Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
                 </svg>
               </div>
               <img src="cover.jpg" alt="cover" />
@@ -134,17 +136,20 @@
             </div>
           </div>
           <div class="playbar">
+            <div class="seekbar">
+              <div class="circle">
+
+              </div>
+            </div>
             <div class="songInfo">
 
             </div>
             <div class="songButtons">
-              <img src="./img/prevsong.svg" alt="prevsong">
-              <img src="./img/play.svg" alt="playsong">
-              <img src="./img/nextsong.svg" alt="nextsong">
+              <img id="previous" src="./img/prevsong.svg" alt="prevsong" />
+              <img id="play" src="./img/play.svg" alt="playsong" />
+              <img id="next" src="./img/nextsong.svg" alt="nextsong" />
             </div>
-            <div class="songTimer">
-
-            </div>
+            <div class="songTimer"></div>
           </div>
         </div>
       </div>
